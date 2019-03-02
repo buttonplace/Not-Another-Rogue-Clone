@@ -1,0 +1,65 @@
+53ceae3 2019-02-27 | Comleted 1.04 (HEAD -> master, origin/master, origin/HEAD)
+4647375 2019-02-27 | Added random monster location
+8256b86 2019-02-27 | Procrastinated by adding colors
+09f107e 2019-02-27 | Fixed bug that caused monsters to exclusively move left. Yeah.
+08b4194 2019-02-27 | Fixed room bug that was not relevant until now
+03703e6 2019-02-27 | Implemented intelegence according to pathfinding, some monsters running the wrong way?
+3f18089 2019-02-27 | Added switch statements allowing new move directions
+09b6e1c 2019-02-27 | Turns now include the player character
+7b7e2da 2019-02-27 | Completed monster turns using heap
+0388854 2019-02-27 | Added code for the actual game into game.c
+1039b82 2019-02-27 | Split pathfinding to a different file
+9aa63bf 2019-02-27 | Completed much needed refactor on entire project
+966ff17 2019-02-27 | Initialized assignment 5
+b447379 2019-02-20 | Removed prints that were originally for debugging
+d88c28a 2019-02-20 | Added missing functionality of loading and saving at the same time
+62a6518 2019-02-20 | Added colors to map output to help distinguish the '%10' values
+e58dc00 2019-02-20 | Fixed bad array accesses that led to seg faults.
+a3fafda 2019-02-20 | Added a dynamically allocated rooms array to my refactored version
+714e297 2019-02-20 | Diagonals implemented, output is as expcted for 03.rlg327
+6a1e48f 2019-02-20 | Loader returned to working status
+392358e 2019-02-20 | Both implementations now work, but my dungeon generation seems to have been bugged during my refactor
+9b46533 2019-02-20 | Remembered that no cost Dijkstra's doesn't contain walls, so I removed walls from the map
+d26773c 2019-02-20 | Just realized I was setting my source node = 0 before setting all nodes = infinity. This led to a source node cost of infinity. That doesn't work very well. No weight Dijkstra's complete.
+111efd4 2019-02-20 | It builds, but none of the values were updated.
+8b9b4b1 2019-02-20 | Tried to add Jeremy's Djikstra again..
+dc63408 2019-02-20 | Ignored ignoring makefile
+9169682 2019-02-19 | Loader restructure complete
+078efa9 2019-02-19 | Refactored loader complete
+88258be 2019-02-19 | Refactored generator complete
+d792d5f 2019-02-19 | Beginning large refactor
+21916c7 2019-02-14 | Revert to Jeremy's dijkstra code
+e036536 2019-02-14 | generated dijkstra prototype
+f3e1941 2019-02-14 | Copied and included heap.h
+738ba9b 2019-02-14 | Initialized Project directory
+697f362 2019-02-09 | Completed room checking to draw corridors correctly
+444006e 2019-02-09 | Completed loading logic
+0519d6f 2019-02-09 | Completed the rest of the saving logic
+8707966 2019-02-09 | Converted x and y position of my rooms to be based on top left corner
+9dd2cec 2019-02-09 | Added player character to my dungeons
+d38eb31 2019-02-09 | Added definitions for macOS htobe functions
+0a4229c 2019-02-06 | Added room saving basics, fixed bugs
+d77f1ac 2019-02-06 | Added writing of the hardness uchar array, checked the hexdump of the generated file so far and it looks maybe correct
+d89969b 2019-02-06 | Implemented hardness
+a013f2e 2019-02-06 | Added more fwrites to saver(), fixed all warnings
+90e2ace 2019-02-06 | Created save function skeleton
+dca3bbd 2019-02-04 | Init project three
+62273e5 2019-01-29 | Forgot stairs. Added Stairs.
+ffb1ec3 2019-01-29 | Added Doxygen comments.
+8446f63 2019-01-29 | Completed cleanup of A2. Remaining optional task: corridor randomization.
+a9d9203 2019-01-29 | Completed required functionality of A2.
+8b8a53a 2019-01-29 | Added command line argument to take a seed
+1ee96ea 2019-01-29 | Completed viable room generation including collision detection
+1845efb 2019-01-29 | Added general dungeon population and dungeon displaying
+3960f17 2019-01-29 | Update README
+040c44d 2019-01-29 | Update README
+3f20aa8 2019-01-29 | Update README
+6b47d7e 2019-01-29 | Added Makefile, command line error checking, and time seeding.
+3464af8 2019-01-29 | Remove untitle
+0318bc0 2019-01-29 | Cleaned up directory
+15a5e51 2019-01-29 | Initialized project 1.02
+7faefe1 2019-01-16 | Completed One
+40d479f 2019-01-14 | Restructure and supporting files for A1
+9f1b514 2019-01-14 | Restructure and supporting files for A1
+9f6937e 2019-01-14 | Adding first assignment
+b176f67 2019-01-14 | Initial commit
